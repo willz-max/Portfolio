@@ -1,0 +1,116 @@
+  :root {
+            --primary-color: #404dff;
+            --secondary-color: #6c757d;
+            --background-color: #f8f9fa;
+            --text-color: #343a40;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+           
+        }
+        .container{
+             max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .top-title {
+            color: var(--primary-color);
+
+        }
+
+        .main-title {
+            font-size: 50px;
+
+
+        }
+
+        .hero-section .lead,
+        .about .lead {
+            font-size: 16px;
+        }
+
+        .hero-section .socials a {
+            color: var(--text-color);
+            /* margin: 0 10px; */
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        .contact .sub-title {
+            font-size: 18px;
+        }
+
+        .contact .sub-title span {
+            color: var(--primary-color);
+        }
+
+
+        @media (max-width: 700px) {
+            .main-title {
+                font-size: 36px;
+
+            }
+
+        }
+
+        .about img {
+            width: 400px;
+            height: 400px;
+        }
+
+        @media (max-width: 768px) {
+            .about img {
+                width: 300px;
+                height: 300px;
+            }
+        }
+
+        .project .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            min-height: 350px;
+            /* background-color: red; */
+        }
+
+        .project .link a {
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+            padding: 10px;
+        }
+
+        .mail {
+            background-color: #dae634;
+            color: white;
+        }
+
+        .call {
+            background: #36c978;
+            color: white;
+        }
+
+        .mail:hover {
+            background-color: #dae634b1;
+            color: white;
+        }
+
+        .call:hover {
+            background: #36c978c8;
+            color: white;
+        }
+
+        .contact .socials a {
+            font-size: 24px;
+        }
+        footer{
+                background: #eaf1ff;
+        }
+        .small-leads{
+            font-size: 14px;
+            color: #707070;
+        }
+
+        footer p{
+            color: #707070;
+        }
